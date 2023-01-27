@@ -1,0 +1,28 @@
+{
+  "loader": {
+    "name": "java_plain",
+    "version": "1.0"
+  },
+  "license": "MIT",
+  "global": {
+    "version": "1.0",
+    "contributors": [
+      {
+        "name": "VertexStudios"
+      }
+    ],
+    "dependencies": [
+      {
+        "id": "spongeapi",
+        "version": "8.0.0"
+      }
+    ]
+  },
+  "plugins": [
+    {
+      "id": "vertextemplate",
+      "name": "VertexTemplate",
+      "entrypoint": "org.vertex.template.sponge.SpongeVertexTemplate"
+    }
+  ]
+}

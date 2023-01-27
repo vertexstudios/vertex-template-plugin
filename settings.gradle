@@ -1,0 +1,4 @@
+rootProject.name = 'vertex-template'
+include 'common'
+include 'bukkit'
+include 'sponge'
